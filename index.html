@@ -1,7 +1,7 @@
 ---
 layout: all
 title: Home
-listing_title: Welcome to RealJenius.com!
+listing_title: Welcome to panke.me!
 page_type: index
 ---
 
@@ -19,7 +19,7 @@ page_type: index
 			{% for post in paginator.posts limit:3 %}
 				<div class="col-lg-4">
 					<h3 class="entry-title"><a href="{{post.url}}">{{post.title}}</a></h3>
-					<p class="post-date">{{post.date | date: "%B %d, %Y"}}</p>				
+					<p class="post-date">{{post.date | date: "%Y-%m-%d"}}</p>				
 					<p>{{post.summary}}</p>
 				</div>
 			{% endfor %}
@@ -47,7 +47,7 @@ page_type: index
 {% else %}
 	<div class="row">
 		<div class="col-lg-12" id="content">
-		<h2>RealJenius.com - Page {{ paginator.page }}</h2>
+		<h2> Page {{ paginator.page }}</h2>
 		{% for post in paginator.posts %}
 			{% include post_row.html %}
 		{% endfor %}
