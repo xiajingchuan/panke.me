@@ -12,6 +12,8 @@ body {
 	font-size: 18px;
 	margin-bottom: 0;
 	border-radius: 0;
+	padding-left:0;
+	padding-right:0;
 }
 a.navbar-brand {
 	font-size: 20px;
@@ -56,7 +58,7 @@ blockquote p {
 
 .more a {
 	display: block;
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: bold;
 	color: #357ebd;
 	height: 100%;
@@ -68,8 +70,8 @@ blockquote p {
 }
 
 .entry-title a {
-	color: #F38630;
-	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6);
+	/*color: #F38630;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6);*/
 }
 
 .entry-title a:hover {
@@ -80,7 +82,7 @@ blockquote p {
 .post-date {
 	padding: 0 5px 5px 5px;
 	color: #aaa;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 15px;
 }
 

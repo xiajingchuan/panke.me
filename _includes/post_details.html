@@ -1,5 +1,5 @@
 <div class="post-details">
-	Categories:
+	分类:
 		{% if item.categories %}
 			{% for cat in item.categories %}
 				<a href="/category/{{cat}}"><span class="label">{{cat}}</span></a>
@@ -8,7 +8,7 @@
 			None
 		{% endif %}
 	|
-	Tags:
+	标签:
 		{% if item.tags %}
 			{% for tag in item.tags %}
 				<a href="/tag/{{tag}}"><span class="label">{{tag}}</span></a>
