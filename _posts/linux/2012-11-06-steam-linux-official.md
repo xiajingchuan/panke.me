@@ -21,7 +21,7 @@ In reality, the drivers they are releasing only fix performance for a few cards 
 In closing, here is Linus giving his sign language to Nvidia:
 
 {% assign video='_36yNWw_07g' %}
-{% include youtube.html %}
+
 
 
 
